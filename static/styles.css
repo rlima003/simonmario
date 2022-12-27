@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #527eec, #456dde, #395dd0, #2c4cc2, #1f3cb4, #1835ad, #102ea7, #0627a0, #0429a0, #032aa0, #012ca0, #002da0);
+  background-size: cover;
+
+  height: 100vh;
+}
+
+#level-title {
+  font-family: 'ArcadeClassic', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url("download (5).jpeg");
+  background-size: cover;
+}
+
+.green {
+  background-image: url("download (4).jpeg");
+  background-size: cover;
+}
+
+.blue {
+  background-image: url("download (7).jpeg");
+  background-size: cover;
+}
+
+.yellow {
+  background-image: url("download (6).jpeg");
+  background-size: cover;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
